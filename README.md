@@ -110,7 +110,7 @@ dataset/
 ```
 Each label `.txt` file contains lines in the format:
 ```
-class x_center y_center width height
+class x_center y_center width height confidence
 ```
 All coordinates are normalized between 0 and 1.
 
