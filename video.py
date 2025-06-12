@@ -29,10 +29,10 @@ while cap.isOpened():
 
     frame_idx += 1
     if frame_idx % 30 == 0:
-        print(f"🖼️ Processed frame {frame_idx}")
+        print(f"Processed frame {frame_idx}")
 
 cap.release()
 out.release()
-print(f"✅ Video saved to: {output_path}")
+print(f"Video saved to: {output_path}")
 cv2.destroyAllWindows()
-print(f"✅ Video saved to: {output_path}")
+print(f"Video saved to: {output_path}")
