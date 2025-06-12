@@ -5,7 +5,7 @@ import os
 
 # Usage: python video.py path/to/video.mp4
 video_path = 'path/to/default/video.mp4'      ## Run video directly
-weights_path = 'weights/yolov8_best.pt'
+weights_path = 'path/to/weight'               ## Download weights from the link to drive
 output_path = 'output/annotated_video.mp4'
 os.makedirs('output', exist_ok=True)
 
