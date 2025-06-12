@@ -23,7 +23,7 @@ This repository contains a full pipeline for training, fine-tuning, and evaluati
 Final model weights (YOLOv8) can be downloaded from the following link:
 [Download yolov8_best.pt](https://github.com/aviatay/cvsa-hw1/releases/download/v1.0/yolov8_best.pt)
 
-> **Note**: If you release a newer version of the model in the future, update this link to match the new release tag (e.g., `v1.1`, `v2.0`, etc.).
+> **Note**: If released a newer version of the model in the future, update this link to match the new release tag (e.g., `v1.1`, `v2.0`, etc.).
 
 ---
 
