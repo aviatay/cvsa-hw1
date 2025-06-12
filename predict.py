@@ -5,7 +5,7 @@ import cv2
 
 # Usage: python predict.py path/to/image.jpg
 image_path = 'path/to/default/image.jpg'            ## Run image directly
-weights_path = 'path/to/weight'                     ## Download weights from the link to drive
+weights_path = 'weight/yolov8_best.pt'              ## Also can download weights from the link in README
 
 model = YOLO(weights_path)
 results = model.predict(source=image_path, save=True)
