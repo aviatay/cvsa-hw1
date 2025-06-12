@@ -13,7 +13,7 @@ This repository contains a full pipeline for training, fine-tuning, and evaluati
 ├── predict.py                  # Run prediction on a single image
 ├── video.py                    # Run prediction on a full video
 ├── weights/                    # Folder for trained model weights
-│   └── yolov8_best.pt          # (Downloaded manually - see below)
+│   └── yolov8_best.pt          # Also can downloaded - see below
 └── output/                     # Output videos/images saved during inference
 ```
 
@@ -21,9 +21,9 @@ This repository contains a full pipeline for training, fine-tuning, and evaluati
 
 ## 💾 Model Weights
 Final model weights (YOLOv8) can be downloaded from the following link:
-[Download yolov8_best.pt](https://drive.google.com/drive/folders/1GrKN7l0k6QlkO2HXCyNlgtOS3PgQ1umC?usp=drive_link)
+[Download yolov8_best.pt](https://github.com/aviatay/cvsa-hw1/releases/download/v1.0/yolov8_best.pt)
 
-After downloading, place the file in the `weights/` directory.
+> **Note**: If you release a newer version of the model in the future, update this link to match the new release tag (e.g., `v1.1`, `v2.0`, etc.).
 
 ---
 
